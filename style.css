@@ -706,6 +706,7 @@ form .footer input {
 
 }
 
+
 form .footer input {
     margin: 30px 0;
 }
@@ -717,7 +718,7 @@ form .footer textarea {
 
 }
 
-form a {
+form button{
     border-radius: 50px;
     margin: 20px 0;
     background-color: #8873EF;
@@ -730,11 +731,12 @@ form a {
     justify-content: center;
     transition: 0.3s ease;
 }
-form a:hover{
+form button:hover{
     color: #8873EF;
     background-color: white;
     border: 1px solid #8873EF;
 }
+
 
 
 
