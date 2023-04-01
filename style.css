@@ -460,7 +460,8 @@ span a:hover {
     align-items: center;
     justify-content: center;
 }
-.container-4 a{
+
+.container-4 a {
     background-color: #8873EF;
     padding: 10px 30px;
     color: white;
@@ -469,11 +470,12 @@ span a:hover {
     transition: 0.2s ease;
 }
 
-.container-4 a:hover{
+.container-4 a:hover {
     color: #8873EF;
     background-color: white;
     border: 1px solid #8873EF;
 }
+
 .container-4 {
 
     padding: 70px 0;
@@ -494,20 +496,21 @@ span a:hover {
 
 }
 
-.row-5{
+.row-5 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.row-5 h2{
+.row-5 h2 {
     font-size: 40pt;
 }
-.row-5 h2::before{
-content: ' ';
-border-top: 4px solid;
-width: 80px;
-display: flex;
+
+.row-5 h2::before {
+    content: ' ';
+    border-top: 4px solid;
+    width: 80px;
+    display: flex;
 
 }
 
@@ -599,7 +602,7 @@ display: flex;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    width: 1800px;
+    width: 1400px;
     grid-template-columns: auto auto auto auto;
 }
 
@@ -637,14 +640,16 @@ display: flex;
 
     letter-spacing: 0.5mm;
 }
-.row-6 .hero h1{
+
+.row-6 .hero h1 {
     color: white;
     font-size: 40pt;
 }
-.row-6 .hero h1::before{
+
+.row-6 .hero h1::before {
     content: ' ';
     border-top: 4px solid;
-    width: 80px;
+    width: 30px;
     display: flex;
     top: 0;
 
@@ -696,12 +701,12 @@ display: flex;
     padding: 20px;
     width: 600px;
     color: black;
-   
+
 
 
 }
 
-form input{
+form input {
     border: 1px solid rgb(207, 207, 207);
 }
 
@@ -716,23 +721,31 @@ form .head {
 
 }
 
-form .head h1{
+form .head h1 {
     font-size: 40pt;
-    
+
 }
-form .head p{
+
+form .head p {
     width: 400px;
 }
+
 form .body {
     justify-content: space-between;
     display: flex;
-    
+
 
 }
 
 form .body input {
     padding: 15px;
     width: 250px;
+   
+}
+
+input:hover, input:focus{
+    outline: none;
+    border-color: #8873EF;
 }
 
 
@@ -746,6 +759,15 @@ form .footer input {
 
 }
 
+form input{
+    transition: 0.2s ease-in;
+}
+
+form textarea{
+    transition: 0.2s ease-in;
+}
+
+
 
 form .footer input {
     margin: 30px 0;
@@ -755,10 +777,17 @@ form .footer textarea {
     padding: 15px;
     border: 1px solid rgb(207, 207, 207);
     resize: none;
+    outline: none;
 
 }
+form .footer textarea:focus{
+    outline: none;
+    border-color: #8873EF;
+}
 
-form button{
+
+
+form button {
     border-radius: 50px;
     margin: 20px 0;
     background-color: #8873EF;
@@ -771,7 +800,8 @@ form button{
     justify-content: center;
     transition: 0.3s ease;
 }
-form button:hover{
+
+form button:hover {
     color: #8873EF;
     background-color: white;
     border: 1px solid #8873EF;
@@ -857,7 +887,7 @@ footer {
 }
 
 .container-8 .social a {
-    color:white;
+    color: white;
     background-color: #8873EF;
     border: 1px solid;
     border-radius: 100%;
