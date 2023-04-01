@@ -460,7 +460,20 @@ span a:hover {
     align-items: center;
     justify-content: center;
 }
+.container-4 a{
+    background-color: #8873EF;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
 
+.container-4 a:hover{
+    color: #8873EF;
+    background-color: white;
+    border: 1px solid #8873EF;
+}
 .container-4 {
 
     padding: 70px 0;
@@ -481,7 +494,22 @@ span a:hover {
 
 }
 
+.row-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.row-5 h2{
+    font-size: 40pt;
+}
+.row-5 h2::before{
+content: ' ';
+border-top: 4px solid;
+width: 80px;
+display: flex;
+
+}
 
 .row-5 .container-5 {
     background-color: #8873EF;
@@ -571,7 +599,7 @@ span a:hover {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-
+    width: 1800px;
     grid-template-columns: auto auto auto auto;
 }
 
@@ -608,6 +636,18 @@ span a:hover {
 .blog span h6 {
 
     letter-spacing: 0.5mm;
+}
+.row-6 .hero h1{
+    color: white;
+    font-size: 40pt;
+}
+.row-6 .hero h1::before{
+    content: ' ';
+    border-top: 4px solid;
+    width: 80px;
+    display: flex;
+    top: 0;
+
 }
 
 .row-6 .hero {
